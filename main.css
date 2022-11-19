@@ -1,32 +1,42 @@
-body {
- background: rgb(150, 168, 205);
- margin: 0;
+/*regular text colour change */
+body{
+    color: red;
+    margin: 0px;
 }
-
-p,ul{
-    color: crimson;
+/* header background change  */
+header{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 15px 15px 0 15px;
 }
-a {
-    color: aqua;
-    font-family: 'Courier New', Courier, monospace;
-    text-decoration: none;
-
-}
-nav ul{
-    margin: 0;
+header h1{
+    margin: 0px;
     display: inline;
+}
+/* navigation bar text colour */
+nav ul{
+    margin: 0px;
+    padding: 0 0 0 15px;
 }
 nav ul li{
-    background: black;
-    color: aliceblue;
     list-style-type: none;
-    display:inline-block;
-    padding: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-
+    display: inline-block;
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    margin: 0px;
 }
-header,h1{
-    margin-left: 40px;
-    display: inline;
+nav ul li a{
+    color: white;
+}
+
+.col{
+    float:left;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer{
+    clear:both;
 }
