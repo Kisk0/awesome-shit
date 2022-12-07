@@ -40,3 +40,7 @@ nav ul li a{
 footer{
     clear:both;
 }
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-kerning: var(1);
+}
