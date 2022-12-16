@@ -41,9 +41,17 @@ footer{
     color: rgb(255, 255, 255);
     text-align: center;
 }
-.testJ{
+
+.up3{
     text-align: center;
-    float:left;
+    font-size: 50px;
+}
+#scr{
+    text-align: center;
+    font-size: 250px;
+    margin: 0px;
+    padding: 0%;
+    letter-spacing: 100%;
 }
 .row{
     clear: both;
