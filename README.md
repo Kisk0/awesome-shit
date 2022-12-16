@@ -1,2 +1,3 @@
 # awesome-shit
-apps and games go here lol
+under development not sure what to do here.
+:)
