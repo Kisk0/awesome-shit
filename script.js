@@ -16,7 +16,7 @@ function changeColour(){
     blue();  
 } 
 const doSomething = async () => {
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 1000; i++) {
       await sleep(1000)
       changeColour();
     }
